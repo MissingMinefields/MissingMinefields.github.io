@@ -189,7 +189,7 @@ countries.addTo(map);
 
 $.ajax({
 dataType: "json",
-url: "geojson/geo-boundaries-world-110m-master/countries.geojson",
+url: "https://github.com/jwitcoski/geo-boundaries-world-110m/blob/master/countries.geojson",
 success: function(data) {
     $(data.features).each(function(key, data) {
         countries.addData(data);
