@@ -1,131 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>MissingMinefields</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>MissingMinefields</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/grayscale.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+<i class="fa fa-bars"></i>
+</button>
+<a class="navbar-brand page-scroll" href="#page-top">
+<i class="fa fa-play-circle"></i> <span class="light">Missing</span> Minefields
+</a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+<ul class="nav navbar-nav">
+<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+<li class="hidden">
+<a href="#page-top"></a>
+</li>
+<li>
+<a class="page-scroll" href="#about">About</a>
+</li>
+<li>
+<a class="page-scroll" href="#Definition">Definition</a>
+</li>
+<li>
+<a class="page-scroll" href="#classification">Classification</a>
+</li>
+<li>
+<a class="page-scroll" href="#openstreetmap">OpenStreetMap</a>
+</li>
+<li>
+<a class="page-scroll" href="#Organizations">Organizations</a>
+</li>
+<li>
+<a class="page-scroll" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+<!-- Intro Header -->
+<header class="intro">
+<div class="intro-body">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<h1 class="brand-heading">Missing Minefields</h1>
+<p class="intro-text">A project to map the minefields of the world using OpenStreetMaps<br>Created by OpenStreetMap volunteers.</p>
+<a href="#about" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<h2>About Missing Minefields</h2>
+<p>Missing Minefields is a open source project created to crowdsource the mapping of areas with potential hazardous explosive ordinances</p>
+<p>We believe that the world should be free from man-made hazards whose original purpose has been long forgotten.</p>
+<p>Please feel free to contribute in any way you can</p>
+<p></p>
+<a href="#Definition" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- Definition Section -->
+<section id="Definition" class="container content-section text-center">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<h2>What are Minefields?</h2>
+<p>Minefields are areas filled with Mines, explosive devices used an explosive device, concealed under or on the ground and designed to destroy or disable enemy targets, ranging from combatants to vehicles and tanks, as they pass over or near the device.  Mines are typically detonated automatically by way of pressure from the target stepping or driving on it, though other detonation mechanisms may be possible.  They can remain dangerous many years after a conflict has ended, harming the economy and civilians of many developing nations.</p>
+<p>Currently, a total of 161 nations are party to the Ottawa treaty known as the Convention on the Prohibition of the Use, Stockpiling, Production and Transfer of Anti-Personnel Mines and on their Destruction.</p>
+<p>34 UN states including the United States, Russia and China are non-signatories.  The agreement of the treaty was that each country must destroy its stockpile of anti-personnel mines within four years and within ten years after ratifying the treaty, the country should have cleared all of its mined areas.  According to some estimates little progress in actual reduction of mine usage has been achieved. In 2011, the number of landmines dispersed is higher than ever since 2004, landmines being dispersed in Libya, Syria, Israel and Burma.</p>
+ </p>
+<a href="http://en.wikipedia.org/wiki/Ottawa_Treaty" class="btn btn-default btn-lg">Read More About the Ottawa Treaty</a>
+<p></p>
+<a href="#classification" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Classification Section -->
+<section id="classification" class="content-section text-center">
+<div class="classification-section">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2">
+<h2>Minefield Classification</h2>
+<p>Minefields can be classified under in OpenStreetMap differently</p>
+<h3>Hazard=Minefield</h3>
+<p>Minefields are a hazard element on the landscape such as a cliff, curved road, or moose crossing</p>
+<ul>
+<li>Benefits: Minefields are Hazard elements on the landscape</li>
+<li>Drawbacks: Most other uses are for road hazards.</li>
+</ul>
+<a href="http://taginfo.openstreetmap.org/tags/hazard=minefield#overview" class="btn btn-default btn-lg">Hazard=minefield tags</a>
+<p></p>
+<h3>Military=Minefield</h3>
+<p>Minefields are military zones designed to slow or deflect the advance of an enemy</p>
+<ul>
+<li>Benefits: Minefields are put in place by Military</li>
+<li>Drawbacks: While some minefields are used by the military most are long abandoned and pose a threat to civilians.</li>
+</ul>
+<a href="http://taginfo.openstreetmap.org/tags/military=minefield#overview" class="btn btn-default btn-lg">Military=minefield tags</a>
+<p></p>
+<h3>Landuse=Minefield</h3>
+<p>Minefields are military zones designed to slow or deflect the advance of an enemy</p>
+<ul>
+<li>Benefits: Minefields are put in place by Military</li>
+<li>Drawbacks: While some minefields are used by the military most are long abandoned and pose a threat to civilians.</li>
+</ul>
+<a href="http://taginfo.openstreetmap.org/tags/landuse=minefield#overview" class="btn btn-default btn-lg">Landuse=minefield tags</a>
+<p></p>
+<h3>Military=danger_area</h3>
+<p>Minefields are military zones designed to slow or deflect the advance of an enemy</p>
+<ul>
+<li>Benefits: Minefields are put in place by Military</li>
+<li>Drawbacks: While some minefields are used by the military most are long abandoned and pose a threat to civilians.</li>
+</ul>
+<a href="http://taginfo.openstreetmap.org/tags/military=danger_area#overview" class="btn btn-default btn-lg">Military=danger_area tags</a>
+<p></p>
+<a href="#openstreetmap" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- OpenStreetMap Section -->
+<section id="openstreetmap" class="content-section text-center">
+<div class="openstreetmap-section">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2">
+<h2>OpenStreetMap</h2>
+<p>OpenStreetMap is an editable map of the whole world, which is being built largely from scratch, and released with an open content license.</p>
+<p> The OpenStreetMap License allows free (or almost free) access to map images and all of underlying map data, and the project aims to promote new and interesting uses of this data.</p>
+<a href="http://www.openstreetmap.org/" class="btn btn-default btn-lg">OpenStreetMap</a>
+<p></p>
+<a href="#Organizations" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Missing</span> Minefields
-                </a>
-            </div>
+<!-- Organizations Section -->
+<section id="Organizations" class="container content-section text-center">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<h2>Minefields Mapping Organizations</h2>
+<p>NGOs</p>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<p>Government Organizations</p>
+<p></p>
+ </p>
+<a href="http://en.wikipedia.org/wiki/Ottawa_Treaty" class="btn btn-default btn-lg">Read More About the Ottawa Treaty</a>
+<p></p>
+<a href="#contact" class="btn btn-circle page-scroll">
+<i class="fa fa-angle-double-down animated"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Missing Minefields</h1>
-                        <p class="intro-text">A project to map the minefields of the world using OpenStreetMaps<br>Created by OpenStreetMap volunteers.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Missing Minefields</h2>
-                <p>Missing Minefields is a open source project created to crowdsource the mapping of areas with potential hazardous explosive ordinances</p>
-                <p>We believe that the world should be free from man-made hazards whose original purpose has been long forgotten</a>.</p>
-                <p>Please feel free to contribute in any way you can</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Minefields</h2>
-                    <p>To download the entire hazard=minefield dataset found on openstreetmaps please go to this link</p>
-                    <a href="http://taginfo.openstreetmap.org/tags/hazard=minefield#overview" class="btn btn-default btn-lg">Hazard=minefield tags</a>
-                </div>
-            </div>
-        </div>
-    </section>
-	
-	    <!-- OpenStreetMap Section -->
-    <section id="openstreetmap" class="content-section text-center">
-      <div class="openstreetmap-section">  
-		<div class="container">
-		  <div class="col-lg-8 col-lg-offset-2">
-            <h2>OpenStreetMap</h2>
-                <p>OpenStreetMap is an editable map of the whole world, which is being built largely from scratch, and released with an open content license.</p>
-            <p> The OpenStreetMap License allows free (or almost free) access to map images and all of underlying map data, and the project aims to promote new and interesting uses of this data.</p>
-			<a href="http://www.openstreetmap.org/" class="btn btn-default btn-lg">OpenStreetMap</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-  <section id="contact" class="container content-section text-center">
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2">
 <h2>Contact MissingMinefields</h2>
@@ -144,66 +218,51 @@
 </div>
 </div>
 </section>
+<!-- Map Section -->
+<div id="map"></div>
+<div id='map-editor' class='map'></div>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>This Page uses Bootstrap Open Theme Greyscale</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
-    
-	<!-- OpenStreetMap API -->
-
- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
- <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
- 
- <script> var map = L.map('map').setView([0, 0],2);
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
+<!-- Footer -->
+<footer>
+<div class="container text-center">
+<p>This Page uses Bootstrap Open Theme Greyscale</p>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+<!-- OpenStreetMap API -->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script> var map = L.map('map').setView([0, 0],2);
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+maxZoom: 18
 }).addTo(map);
 L.marker([-11.032863880653734,-68.95843505859375]).addTo(map);
-
 /*'/geojson/geo-boundaries-world-110m-master/countries.geojson'*/
-
-
 var countryStyle = {} ;
-
 var countries = new L.geoJson();
 countries.addTo(map);
-
 $.ajax({
 dataType: "json",
 url: "geojson/countries.geojson",
-
 success: function(data) {
-    $(data.features).each(function(key, data) {
-        countries.addData(data);
-    });
+$(data.features).each(function(key, data) {
+countries.addData(data);
+});
 }
 }).error(function() {});
+countries.bindPopup("feature.properties.name").openPopup();
+l.marker.bindPopup(feature.properties.name);
 
-
-
- </script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+</script>
+<!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
 </body>
-
 </html>
