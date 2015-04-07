@@ -261,18 +261,37 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.Definition-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/Definition.jpg) no-repeat center center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	p{
+	color: black;
+	}
+	}
+
+
+.classification-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/classification-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
+	p{
+	color: black;
+	}
+	}
+	
 .openstreetmap-section {
     width: 100%;
     padding: 50px 0;
